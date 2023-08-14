@@ -7,9 +7,9 @@ class Calc {
     public $num2;
 
     //constuctor
-    public function __construct(string $oper, int $two, int $three) {
+    public function __construct(string $one, int $two, int $three) {
 
-        $this->operator = $oper;
+        $this->operator = $one;
         $this->num1 = $two;
         $this->num2 = $three;
     }
