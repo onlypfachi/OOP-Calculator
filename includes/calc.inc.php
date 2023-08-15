@@ -4,8 +4,10 @@
   include "class-autoload.inc.php";
   
    $oper = $_POST["oper"];
-   $num1 = $_POST["num1"];
+   $num1 = $_POST["first"];
    $num2 = $_POST["num2"];
+
+   
 
    $calc = new Calc($oper, (int)$num1, (int)$num2);
 
@@ -14,4 +16,5 @@
    } catch (TypeError $e) {
         echo "Error!: " . $e->getMessage();
     }
+
   ?>

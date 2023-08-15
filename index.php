@@ -12,9 +12,9 @@
 </head>
    <body>
     
-       <form action="includes/calc.inc.php" method="post">
+       <form action="includes\calc.inc.php" method="post">
            <p>My Own Calculator</p>
-           <input type="number" name="num1" id="" placeholder="First Number">
+           <input type="number" name="first" placeholder="First Number">
            <select name="oper" id="">
                 <option value="add">Addition</option>
                 <option value="subtract">Subtraction</option>
